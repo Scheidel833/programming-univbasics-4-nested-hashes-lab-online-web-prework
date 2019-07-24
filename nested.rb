@@ -1,7 +1,15 @@
 
 def hopper
-	programmer_hash = 
- 		{
+	programmer_hash =my_hash=
+	{first: "I'm
+	first!",
+	second: "I'm
+	second!"}
+	my_hash[:third]
+	= "I'm third!"
+
+puts my_hash
+
         :grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
